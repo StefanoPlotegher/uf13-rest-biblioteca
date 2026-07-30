@@ -20,3 +20,9 @@ L'interfaccia Swagger è disponibile al seguente indirizzo:
 ```
 http://localhost:8080/swagger-ui/index.html
 ```
+
+## Docs
+
+### Documentazione Task1
+
+La documentazione della Task-1 la si puo trovare qui [docs/APIResponse+ghestioneErrori.md](docs/APIResponse+ghestioneErrori.md)
