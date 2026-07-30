@@ -7,7 +7,7 @@
 È stata creata una classe generica `APIResponse<T>` nel package `domain.response` per uniformare tutte le risposte dell'API secondo lo **standard JSend** (`success` / `fail` / `error`).
 
 | Campo     | Tipo           | Descrizione                                      |
-
+|-----------|----------------|--------------------------------------------------|
 | `status`  | `String`       | `"success"`, `"fail"` o `"error"`                |
 | `data`    | `T` (generico) | Payload della risposta (presente in success/fail)|
 | `message` | `String`       | Messaggio di errore (presente solo in error)     |
@@ -24,7 +24,7 @@ I campi `data` e `message` sono annotati con `@JsonInclude(Include.NON_NULL)` pe
 Classe `@ControllerAdvice` in `controllers.exception` che centralizza la gestione degli errori, eliminando ogni blocco try-catch nei controller.
 
 | Eccezione                         | Status HTTP               | Risposta                                         |    
-
+|-----------------------------------|---------------------------|--------------------------------------------------|
 | `MethodArgumentNotValidException` | 400 Bad Request           | `APIResponse.fail(Map<campo, messaggio>)`        |
 | `ResponseStatusException` (4xx)   | Stesso status             | `APIResponse.fail(reason)`                       |
 | `ResponseStatusException` (5xx)   | Stesso status             | `APIResponse.error(reason)`                      |
