@@ -23,6 +23,8 @@ http://localhost:8080/swagger-ui/index.html
 
 ## Docs
 
-### Documentazione Task1
+### Documentazione Tasks
 
-La documentazione della Task-1 la si puo trovare qui [docs/APIResponse+ghestioneErrori.md](docs/APIResponse+ghestioneErrori.md)
+- La documentazione della Task-1 la si puo trovare qui [docs/APIResponse+ghestioneErrori.md](docs/APIResponse+ghestioneErrori.md)
+
+- La documentazione della Task-2 la si puo trovare qui [docs/ContainerizzazioneProfili.md](docs/ContainerizzazioneProfili.md)
